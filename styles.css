@@ -1,0 +1,161 @@
+h1{
+  text-align: center;
+}
+
+.controls{
+  text-align: center;
+}
+
+#slideshow > div {
+  position: absolute;
+  left: 50%;
+  margin-left: -170px;
+}
+
+.slideshow-photo {
+  position: relative;
+  height: 240px;
+  padding: 10px;
+}
+
+.music-btn{
+  position: absolute;
+  top: 82vh;
+  z-index    : 15;
+  color: white;
+  margin-left: 250px;
+}
+
+.play-btn{
+  position: absolute;
+  top: 82vh;
+  z-index    : 5;
+  /* // left: 0px; */
+  color: white;
+}
+
+.prev-btn{
+  position: absolute;
+  top: 82vh;
+  z-index    : 15;
+  color: white;
+  margin-left: -50px;
+}
+
+.next-btn{
+  position: absolute;
+  top: 82vh;
+  z-index    : 15;
+  color: white;
+  margin-left: 185px;
+}
+
+.pause-btn{
+  position: absolute;
+  top: 82vh;
+  z-index    : 15;
+  color: white;
+  margin-left: 50px;
+}
+
+.stop-btn{
+  position: absolute;
+  top: 82vh;
+  z-index    : 15;
+  color: white;
+  margin-left: 125px;
+}
+
+.thumbnail-container {
+    overflow-x:scroll;
+    width:100%;
+    padding: 0 15px;
+}
+
+.cycle-pager {
+  max-width: 90vw;
+  list-style: none;
+}
+
+.external {
+    white-space:nowrap;
+    list-style: none;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.external li {
+  display: inline-block;
+}
+.photo-gallery-thumb {
+    display: inline;
+    padding:2px;
+    /* // max-width: 100px; */
+    height: 100px;
+}
+
+.photo-gallery-thumb:hover {
+  cursor:pointer
+}
+
+.cycle-pager-fullscreen {
+  background-color: black;
+  position: absolute;
+  top: 85vh;
+  z-index    : 5;
+  width: 100vw;
+  left: 0px;
+}
+
+#overlay-back {
+    position   : absolute;
+    top        : 0;
+    left       : 0;
+    width      : 100%;
+    height     : 100%;
+    background : #000;
+    opacity    : 1;
+    filter     : alpha(opacity=60);
+    z-index    : 5;
+    display    : none;
+}
+
+.cycle-slideshow {
+  display: none;
+  position: absolute;
+  /* // left: 50%; */
+  /* // margin-left: -10vw; */
+  /* // height: 80vh; */
+  top: 10vh;
+  /* // width: 70%; */
+  /* // height: 200vh; */
+}
+
+.photo-gallery-photo{
+  position: absolute;
+  /* // width: 70%; DO NOT UN COMMENT THIS! */
+  height: 70vh;
+}
+
+
+
+
+
+.memorial-form-container {
+  max-width: 400px;
+  margin-bottom: $midi-space;
+}
+
+
+.gallery-canvas {
+  height: 100%;
+  max-width: 90vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  /* // display: block; */
+  background-color: white;
+  margin-bottom: 600px;
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+}
