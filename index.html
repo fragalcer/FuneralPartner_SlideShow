@@ -5,80 +5,78 @@
     <link rel="stylesheet" href="styles.css">
     <title>Funeral Partner SlideShow</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://file.myfontastic.com/uQns5MQGJA9KuWXTWvcrVQ/icons.css" rel="stylesheet">
 </head>
 
 <body>
 <section>
-    <div class="gallery-canvas">
-        <div id="overlay-back">
-        </div>
-
-
-        <div class="cycle-slideshow"
-             data-cycle-fx="fade"
-             data-cycle-loop="0"
-             data-cycle-paused='true'
-             data-cycle-prev="#prev"
-             data-cycle-next="#next"
-             data-cycle-pager="#no-template-pager"
-             data-cycle-pager-template=""
-             data-cycle-center-horz="true"
-             data-cycle-center-vert="true"
-        >
-            <img src="johnlennon1.jpg" class="photo-gallery-photo">
-            <img src="johnlennon2.jpg" class="photo-gallery-photo">
-            <img src="johnlennon3.jpg" class="photo-gallery-photo">
-            <img src="johnlennon1.jpg" class="photo-gallery-photo">
-            <img src="johnlennon2.jpg" class="photo-gallery-photo">
-            <img src="johnlennon3.jpg" class="photo-gallery-photo">
-            <img src="johnlennon4.jpg" class="photo-gallery-photo">
-            <img src="johnlennon5.jpg" class="photo-gallery-photo">
-            <img src="johnlennon6.jpg" class="photo-gallery-photo">
-            <img src="johnlennon7.jpg" class="photo-gallery-photo">
-            <img src="johnlennon4.jpg" class="photo-gallery-photo">
-            <img src="johnlennon5.jpg" class="photo-gallery-photo">
-            <img src="johnlennon6.jpg" class="photo-gallery-photo">
-            <img src="johnlennon7.jpg" class="photo-gallery-photo">
-            <img src="johnlennon4.jpg" class="photo-gallery-photo">
-            <img src="johnlennon5.jpg" class="photo-gallery-photo">
-            <img src="johnlennon6.jpg" class="photo-gallery-photo">
-            <img src="johnlennon7.jpg" class="photo-gallery-photo">
-        </div>
-
-        <div class="thumbnail-container">
-            <ul id=no-template-pager class="cycle-pager">
-                <img src="johnlennon1.jpg" class="photo-gallery-thumb">
-	            <img src="johnlennon2.jpg" class="photo-gallery-thumb">
-	            <img src="johnlennon3.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon1.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon2.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon3.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon4.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon5.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon6.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon7.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon4.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon5.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon6.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon7.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon4.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon5.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon6.jpg" class="photo-gallery-thumb">
-                <img src="johnlennon7.jpg" class="photo-gallery-thumb">
-            </ul>
-        </div>
-
-        <div class="controls">
-            <a href=# id="prev"> << </a>
-            <a href=# id="play"> Play</a>
-            <a href=# id="playc"> Play Continiously</a>
-            <a href=# id="pause"> Pause </a>
-            <a href=# id="stop"> Close </a>
-            <a href=# id="next"> >> </a>
-            <a href=# id="music"> Music </a>
-        </div>
-
+    <div id="overlay-back">
     </div>
+
+    <div class="cycle-slideshow"
+         data-cycle-fx="fade"
+         data-cycle-loop="0"
+         data-cycle-paused="true"
+         data-cycle-auto-height="calc"
+         data-cycle-speed="8000"
+         data-cycle-manual-speed="2000"
+         data-cycle-prev="#prev"
+         data-cycle-next="#next"
+         data-cycle-pager="#no-template-pager"
+         data-cycle-pager-template=""
+         data-cycle-center-horz="true"
+         data-cycle-center-vert="true"
+    >
+        <img src="johnlennon0.png" class="photo-gallery-photo">
+        <img src="johnlennon1.jpg" class="photo-gallery-photo">
+        <img src="johnlennon2.jpg" class="photo-gallery-photo">
+        <img src="johnlennon3.jpg" class="photo-gallery-photo">
+        <img src="johnlennon1.jpg" class="photo-gallery-photo">
+        <img src="johnlennon2.jpg" class="photo-gallery-photo">
+        <img src="johnlennon3.jpg" class="photo-gallery-photo">
+        <img src="johnlennon4.jpg" class="photo-gallery-photo">
+        <img src="johnlennon5.jpg" class="photo-gallery-photo">
+        <img src="johnlennon6.jpg" class="photo-gallery-photo">
+        <img src="johnlennon7.jpg" class="photo-gallery-photo">
+        <img src="johnlennon4.jpg" class="photo-gallery-photo">
+        <img src="johnlennon5.jpg" class="photo-gallery-photo">
+        <img src="johnlennon6.jpg" class="photo-gallery-photo">
+        <img src="johnlennon7.jpg" class="photo-gallery-photo">
+        <img src="johnlennon4.jpg" class="photo-gallery-photo">
+        <img src="johnlennon5.jpg" class="photo-gallery-photo">
+        <img src="johnlennon6.jpg" class="photo-gallery-photo">
+        <img src="johnlennon7.jpg" class="photo-gallery-photo">
+    </div>
+
+    <div class="container text-center">
+        <button type="button" id="play_main_id" class="btn btn-success btn-lg">
+            <span class="icon-play"></span> Play
+        </button>
+        <button type="button" id="play_continuously_main_id" class="btn btn-success btn-lg">
+            <span class="icon-loop"></span> Play Continuously
+        </button>
+    </div>
+
+    <div class="container text-center">
+        <div class="btn-group" role="group" id="audio_controls_id">
+            <button type="button" id="prev" class="btn btn-default btn-lg">
+                <span class="icon-back"></span>
+            </button>
+            <button type="button" id="pause" class="btn btn-default btn-lg">
+                <span id="pause-span-id" class="icon-pause"></span>
+            </button>
+            <button type="button" id="stop" class="btn btn-default btn-lg">
+                <span class="icon-stop"></span>
+            </button>
+            <button type="button" id="music" class="btn btn-default btn-lg">
+                <span id="music-span-id" class="icon-mute"></span>
+            </button>
+            <button type="button" id="next" class="btn btn-default btn-lg">
+                <span class="icon-next"></span>
+            </button>
+        </div>
+    </div>
+
 </section>
 
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
