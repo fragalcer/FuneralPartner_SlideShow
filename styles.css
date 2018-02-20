@@ -1,69 +1,64 @@
-h1{
-  text-align: center;
-}
-
 .controls{
-  text-align: center;
+    text-align: center;
 }
 
 #slideshow > div {
-  position: absolute;
-  left: 50%;
-  margin-left: -170px;
+    position: absolute;
+    left: 50%;
+    margin-left: -170px;
 }
 
 .slideshow-photo {
-  position: relative;
-  height: 240px;
-  padding: 10px;
+    position: relative;
+    height: 240px;
+    padding: 10px;
 }
 
 .music-btn{
-  position: absolute;
-  top: 82vh;
-  z-index    : 15;
-  color: white;
-  margin-left: 250px;
+    position: absolute;
+    top: 82vh;
+    z-index: 15;
+    color: white;
+    margin-left: 250px;
 }
 
 .play-btn{
-  position: absolute;
-  top: 82vh;
-  z-index    : 5;
-  /* // left: 0px; */
-  color: white;
+    position: absolute;
+    top: 82vh;z-index    : 5;
+    /* // left: 0px; */
+    color: white;
 }
 
 .prev-btn{
-  position: absolute;
-  top: 82vh;
-  z-index    : 15;
-  color: white;
-  margin-left: -50px;
+    position: absolute;
+    top: 82vh;
+    z-index    : 15;
+    color: white;
+    margin-left: -50px;
 }
 
 .next-btn{
-  position: absolute;
-  top: 82vh;
-  z-index    : 15;
-  color: white;
-  margin-left: 185px;
+    position: absolute;
+    top: 82vh;
+    z-index    : 15;
+    color: white;
+    margin-left: 185px;
 }
 
 .pause-btn{
-  position: absolute;
-  top: 82vh;
-  z-index    : 15;
-  color: white;
-  margin-left: 50px;
+    position: absolute;
+    top: 82vh;
+    z-index    : 15;
+    color: white;
+    margin-left: 50px;
 }
 
 .stop-btn{
-  position: absolute;
-  top: 82vh;
-  z-index    : 15;
-  color: white;
-  margin-left: 125px;
+    position: absolute;
+    top: 82vh;
+    z-index    : 15;
+    color: white;
+    margin-left: 125px;
 }
 
 .thumbnail-container {
@@ -73,8 +68,7 @@ h1{
 }
 
 .cycle-pager {
-  max-width: 90vw;
-  list-style: none;
+    list-style: none;
 }
 
 .external {
@@ -84,7 +78,7 @@ h1{
     overflow-y: hidden;
 }
 .external li {
-  display: inline-block;
+    display: inline-block;
 }
 .photo-gallery-thumb {
     display: inline;
@@ -94,16 +88,16 @@ h1{
 }
 
 .photo-gallery-thumb:hover {
-  cursor:pointer
+    cursor:pointer
 }
 
 .cycle-pager-fullscreen {
-  background-color: black;
-  position: absolute;
-  top: 85vh;
-  z-index    : 5;
-  width: 100vw;
-  left: 0px;
+    background-color: black;
+    position: absolute;
+    top: 85vh;
+    z-index    : 5;
+    width: 100vw;
+    left: 0px;
 }
 
 #overlay-back {
@@ -119,43 +113,29 @@ h1{
     display    : none;
 }
 
-.cycle-slideshow {
-  display: none;
-  position: absolute;
-  /* // left: 50%; */
-  /* // margin-left: -10vw; */
-  /* // height: 80vh; */
-  top: 10vh;
-  /* // width: 70%; */
-  /* // height: 200vh; */
-}
+/*.cycle-slideshow {*/
+    /*display: none;*/
+    /*position: absolute;*/
+    /* // left: 50%; */
+    /* // margin-left: -10vw; */
+    /* // height: 80vh; */
+    /*top: 10vh;*/
+    /* // width: 70%; */
+    /* // height: 200vh; */
+/*}*/
 
 .photo-gallery-photo{
-  position: absolute;
-  /* // width: 70%; DO NOT UN COMMENT THIS! */
-  height: 70vh;
-}
-
-
-
-
-
-.memorial-form-container {
-  max-width: 400px;
-  margin-bottom: $midi-space;
+    position: absolute;
+    /* // width: 70%; DO NOT UN COMMENT THIS! */
+    height: 70vh;
 }
 
 
 .gallery-canvas {
-  height: 100%;
-  max-width: 90vw;
-  padding-left: 20vw;
-  padding-right: 20vw;
-  /* // display: block; */
-  background-color: white;
-  margin-bottom: 600px;
-  li {
-    list-style: none;
-    display: inline-block;
-  }
+    height: 100%;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    /* // display: block; */
+    background-color: white;
+    margin-bottom: 600px;
 }
